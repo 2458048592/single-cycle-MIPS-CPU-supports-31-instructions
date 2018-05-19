@@ -1,0 +1,55 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon Apr 16 19:33:57 2018
+# Process ID: 6420
+# Current directory: D:/vivado____360/CPU-31-master
+# Command line: vivado.exe D:\vivado____360\CPU-31-master\1552229-cpu31.xpr
+# Log file: D:/vivado____360/CPU-31-master/vivado.log
+# Journal file: D:/vivado____360/CPU-31-master\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/vivado____360/CPU-31-master/1552229-cpu31.xpr
+INFO: [Project 1-313] Project file moved from 'E:/vivado_projects/1552229-cpu31' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/vivado____360/CPU-31-master/1552229-cpu31.srcs/sources_1/new/CP0.v', nor could it be found using path 'E:/vivado_projects/1552229-cpu31/1552229-cpu31.srcs/sources_1/new/CP0.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/vivado____360/CPU-31-master/1552229-cpu31.srcs/sources_1/new/multu.v', nor could it be found using path 'E:/vivado_projects/1552229-cpu31/1552229-cpu31.srcs/sources_1/new/multu.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/vivado____360/CPU-31-master/1552229-cpu31.srcs/sources_1/new/mul.v', nor could it be found using path 'E:/vivado_projects/1552229-cpu31/1552229-cpu31.srcs/sources_1/new/mul.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/vivado____360/CPU-31-master/1552229-cpu31.srcs/sources_1/new/load.v', nor could it be found using path 'E:/vivado_projects/1552229-cpu31/1552229-cpu31.srcs/sources_1/new/load.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/vivado____360/CPU-31-master/1552229-cpu31.srcs/sources_1/new/save.v', nor could it be found using path 'E:/vivado_projects/1552229-cpu31/1552229-cpu31.srcs/sources_1/new/save.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/vivado____360/CPU-31-master/1552229-cpu31.srcs/sources_1/new/cz.v', nor could it be found using path 'E:/vivado_projects/1552229-cpu31/1552229-cpu31.srcs/sources_1/new/cz.v'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:09 . Memory (MB): peak = 831.805 ; gain = 171.910
+update_compile_order -fileset sources_1
+remove_files D:/vivado____360/CPU-31-master/1552229-cpu31.srcs/sources_1/new/CP0.v
+file delete -force D:/vivado____360/CPU-31-master/1552229-cpu31.srcs/sources_1/new/CP0.v
+remove_files D:/vivado____360/CPU-31-master/1552229-cpu31.srcs/sources_1/new/cz.v
+file delete -force D:/vivado____360/CPU-31-master/1552229-cpu31.srcs/sources_1/new/cz.v
+remove_files D:/vivado____360/CPU-31-master/1552229-cpu31.srcs/sources_1/new/multu.v
+file delete -force D:/vivado____360/CPU-31-master/1552229-cpu31.srcs/sources_1/new/multu.v
+remove_files D:/vivado____360/CPU-31-master/1552229-cpu31.srcs/sources_1/new/mul.v
+file delete -force D:/vivado____360/CPU-31-master/1552229-cpu31.srcs/sources_1/new/mul.v
+remove_files D:/vivado____360/CPU-31-master/1552229-cpu31.srcs/sources_1/new/save.v
+file delete -force D:/vivado____360/CPU-31-master/1552229-cpu31.srcs/sources_1/new/save.v
+remove_files D:/vivado____360/CPU-31-master/1552229-cpu31.srcs/sources_1/new/load.v
+file delete -force D:/vivado____360/CPU-31-master/1552229-cpu31.srcs/sources_1/new/load.v
+reset_run ipcore_synth_1
+reset_run synth_1
+launch_runs impl_1
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ipcore'...
+[Mon Apr 16 19:38:42 2018] Launched ipcore_synth_1, synth_1...
+Run output will be captured here:
+ipcore_synth_1: D:/vivado____360/CPU-31-master/1552229-cpu31.runs/ipcore_synth_1/runme.log
+synth_1: D:/vivado____360/CPU-31-master/1552229-cpu31.runs/synth_1/runme.log
+[Mon Apr 16 19:38:42 2018] Launched impl_1...
+Run output will be captured here: D:/vivado____360/CPU-31-master/1552229-cpu31.runs/impl_1/runme.log
+reset_run impl_1
+launch_runs impl_1
+[Mon Apr 16 19:44:58 2018] Launched impl_1...
+Run output will be captured here: D:/vivado____360/CPU-31-master/1552229-cpu31.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 16 19:47:17 2018...

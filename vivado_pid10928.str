@@ -1,0 +1,148 @@
+/*
+
+Vivado v2016.2 (64-bit)
+SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+Process ID: 10928
+
+Current time: 	4/25/18 6:49:37 PM CST
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=SimSun,name=ËÎÌו,style=plain,size=12
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	D:/Vivado/2016.2/tps/win64/jre
+
+User name: 	admin
+User home directory: C:/Users/admin
+User working directory: D:/vivado____360/CPU-31-master -board
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI Base root directory: D:/Vivado
+RDI Data directory: D:/Vivado/2016.2/data
+RDI Bin directory: D:/Vivado/2016.2/bin
+
+Vivado preferences path: C:/Users/admin/AppData/Roaming/Xilinx/Vivado/2016.2/vivado.ini
+Vivado layouts directory: C:/Users/admin/AppData/Roaming/Xilinx/Vivado/2016.2/layouts
+
+GUI allocated memory:	212 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 444 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 38 MB (+37131kb) [00:00:12]
+// [Engine Memory]: 381 MB (+247781kb) [00:00:12]
+// bL:g (cv:JFrame):  Open Project : addNotify
+// Opening Vivado Project: D:\vivado____360\CPU-31-master -board\1652262-cpu31.xpr. Version: Vivado v2016.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {D:/vivado____360/CPU-31-master -board/1652262-cpu31.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: MSGMGR_REFRESH_MSG
+// [GUI Memory]: 52 MB (+13387kb) [00:00:16]
+// [Engine Memory]: 460 MB (+63356kb) [00:00:16]
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 468 MB. GUI used memory: 29 MB. Current time: 4/25/18 6:49:39 PM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 514 MB (+32024kb) [00:00:18]
+// [GUI Memory]: 63 MB (+7946kb) [00:00:20]
+// [Engine Memory]: 554 MB (+15563kb) [00:00:20]
+// [GUI Memory]: 67 MB (+1586kb) [00:00:22]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project {D:/vivado____360/CPU-31-master -board/1652262-cpu31.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2016.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: 1652262-cpu31; location: D:/vivado____360/CPU-31-master -board; part: xc7a100tcsg324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:29 ; elapsed = 00:00:14 . Memory (MB): peak = 821.055 ; gain = 164.840 
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 0, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 0, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (cpu.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_test (cpu_test.v), uut - cpu (cpu.v)]", 2, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_test (cpu_test.v), uut - cpu (cpu.v), lo - pcreg (pcreg.v)]", 4, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("cpu.v", 126, 38); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("cpu.v", 98, 37); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 73 MB (+2646kb) [00:00:41]
+// [Engine Memory]: 597 MB (+15222kb) [00:00:43]
+selectButton(PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION, "run_implementation"); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// G:be (cv:JFrame): Synthesis is Out-of-date: addNotify
+dismissDialog("Synthesis is Out-of-date"); // G:be (cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 597 MB. GUI used memory: 43 MB. Current time: 4/25/18 6:50:09 PM CST
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bL:g (cv:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 -jobs 2 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Apr 25 18:50:10 2018] Launched synth_1... Run output will be captured here: D:/vivado____360/CPU-31-master -board/1652262-cpu31.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bL:g (cv:JFrame)
+// [Engine Memory]: 636 MB (+9529kb) [00:01:28]
+// HMemoryUtils.trashcanNow. Engine heap size: 636 MB. GUI used memory: 39 MB. Current time: 4/25/18 6:50:54 PM CST
+// Elapsed time: 148 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_test (cpu_test.v), uut - cpu (cpu.v)]", 2, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_test (cpu_test.v), uut - cpu (cpu.v)]", 2, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_test (cpu_test.v), uut - cpu (cpu.v)]", 2, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_test (cpu_test.v), uut - cpu (cpu.v), lo - pcreg (pcreg.v)]", 4, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("cpu.v", 766, 256); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("cpu.v", 658, 199); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_test (cpu_test.v), uut - cpu (cpu.v), hi - pcreg (pcreg.v)]", 3, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_test (cpu_test.v), uut - cpu (cpu.v), hi - pcreg (pcreg.v)]", 3, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_test (cpu_test.v), uut - cpu (cpu.v), cpu0 - cpu_dataflow (cpu_dataflow.v)]", 6, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_test (cpu_test.v), uut - cpu (cpu.v), cpu0 - cpu_dataflow (cpu_dataflow.v)]", 6, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_test (cpu_test.v), uut - cpu (cpu.v), pc_add4 - pc_add4 (pc_add4.v)]", 21, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_test (cpu_test.v), uut - cpu (cpu.v), pc_add4 - pc_add4 (pc_add4.v)]", 21, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+// [GUI Memory]: 79 MB (+2453kb) [00:03:51]
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Synthesis Completed: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ap:G)
+dismissDialog("Synthesis Completed"); // ap:G (cv:JFrame)
+closeMainWindow("1652262-cpu31 - [D:/vivado____360/CPU-31-master -board/1652262-cpu31.xpr] - Vivado 2016.2"); // cv:JFrame
+// G:be (cv:JFrame): Exit Vivado: addNotify

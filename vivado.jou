@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Apr 25 18:49:11 2018
+# Process ID: 10928
+# Current directory: D:/vivado____360/CPU-31-master -board
+# Command line: vivado.exe D:\vivado____360\CPU-31-master -board\1652262-cpu31.xpr
+# Log file: D:/vivado____360/CPU-31-master -board/vivado.log
+# Journal file: D:/vivado____360/CPU-31-master -board\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/vivado____360/CPU-31-master -board/1652262-cpu31.xpr}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
